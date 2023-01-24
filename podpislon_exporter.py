@@ -7,7 +7,7 @@ orgs = {
     'company1': 'api1',
     'company2': 'api2',
     'company3': 'api3',
-    'company4': 'api4',
+    'company4': 'api4'
 }
 stats_podpislon = Gauge('podpislon', 'Podpislon statistics', ['org', 'type'])
 def get_stats():
